@@ -4,7 +4,7 @@ A escola Alf aplica provas de múltipla escolha para os alunos. A nota do aluno 
 
 Requisitos obrigatórios:
 
-Crie uma API HTTP que permita à escola:
+Criar uma API HTTP que permita à escola:
 
 - Cadastrar o gabarito de cada prova;
 
