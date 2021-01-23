@@ -10,19 +10,11 @@ const StudentsRouter = Router();
 
 StudentsRouter.post('/', async (request, response) => {
     try{
-        const { name,
-                bimonthlyNote1,
-                bimonthlyNote2,
-                bimonthlyNote3,
-                bimonthlyNote4 } = request.body;
+        const { name } = request.body;
         const studentsController = new StudentsController();
 
         const students = await studentsController.store({
-                name,
-                bimonthlyNote1,
-                bimonthlyNote2,
-                bimonthlyNote3,
-                bimonthlyNote4 
+                name
                });
         return response.json(students);
     }catch (erro){

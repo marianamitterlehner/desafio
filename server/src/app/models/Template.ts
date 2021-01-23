@@ -4,13 +4,13 @@ import {
     Column,
   } from 'typeorm';
   
-  @Entity('students')
-  class Student {
+  @Entity('templetes')
+  class Templete {
     @PrimaryGeneratedColumn('uuid')
     id: string;
     
     @Column()
-    name: string;
+    answer: string;
   }
   
-  export default Student;
+  export default Templete;
