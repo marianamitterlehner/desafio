@@ -20,23 +20,24 @@ export default class CreateStudents1611272199625 implements MigrationInterface {
                 },
                 {
                   name: 'bimonthlyNote1',
-                  type: 'varchar',
+                  type: 'integer',
                 },
                 {
                   name: 'bimonthlyNote2',
-                  type: 'varchar',
+                  type: 'integer',
                 },
                 {
                     name: 'bimonthlyNote3',
-                    type: 'varchar',
+                    type: 'integer',
                 },
                 {
                     name: 'bimonthlyNote4',
-                    type: 'varchar',
+                    type: 'integer',
                 },
                 {
                     name: 'gradeAverage',
-                    type: 'varchar',
+                    type: 'real',
+                    isNullable: true,
                 },
               ],
             }),

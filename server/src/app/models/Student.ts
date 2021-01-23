@@ -13,19 +13,19 @@ import {
     name: string;
   
     @Column()
-    bimonthlyNote1: string;
+    bimonthlyNote1: number;
 
     @Column()
-    bimonthlyNote2: string;
+    bimonthlyNote2: number;
 
     @Column()
-    bimonthlyNote3: string;
+    bimonthlyNote3: number;
 
     @Column()
-    bimonthlyNote4: string;
+    bimonthlyNote4: number;
 
     @Column()
-    gradeAverage: string;
+    gradeAverage: number;
   }
   
   export default Student;

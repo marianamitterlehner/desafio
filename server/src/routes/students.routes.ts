@@ -14,17 +14,15 @@ StudentsRouter.post('/', async (request, response) => {
                 bimonthlyNote1,
                 bimonthlyNote2,
                 bimonthlyNote3,
-                bimonthlyNote4,
-                gradeAverage } = request.body;
+                bimonthlyNote4 } = request.body;
         const studentsController = new StudentsController();
 
         const students = await studentsController.store({
-                  name,
-                  bimonthlyNote1,
-                  bimonthlyNote2,
-                  bimonthlyNote3,
-                  bimonthlyNote4,
-                  gradeAverage
+                name,
+                bimonthlyNote1,
+                bimonthlyNote2,
+                bimonthlyNote3,
+                bimonthlyNote4 
                });
         return response.json(students);
     }catch (erro){

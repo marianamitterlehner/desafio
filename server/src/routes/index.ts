@@ -1,10 +1,10 @@
 
 import { Router } from 'express';
 
-import pppsRouter from './students.routes';
+import studentsRouter from './students.routes';
 
 const routes = Router();
 
-routes.use('/ppps', pppsRouter);
+routes.use('/students', studentsRouter);
 
 export default routes;
