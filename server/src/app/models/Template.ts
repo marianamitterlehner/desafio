@@ -4,8 +4,8 @@ import {
     Column,
   } from 'typeorm';
   
-  @Entity('templetes')
-  class Templete {
+  @Entity('templates')
+  class Template {
     @PrimaryGeneratedColumn('uuid')
     id: string;
     
@@ -13,4 +13,4 @@ import {
     answer: string;
   }
   
-  export default Templete;
+  export default Template;

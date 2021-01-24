@@ -26,6 +26,7 @@ export default class CreateTest1611417072110 implements MigrationInterface {
                 {
                     name: 'examresult',
                     type: 'integer',
+                    isNullable: true,
                 },
                 {
                     name: 'templates',

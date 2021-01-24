@@ -7,7 +7,7 @@ interface Request {
 }
 
 class  StudentsController {
-  public async store({ name }: Request): Promise< Students> {
+  public async store({ name }: Request): Promise<Students> {
     const studentsRepository = getRepository(Students);
 
     const student = studentsRepository.create({
