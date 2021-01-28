@@ -1,27 +1,28 @@
 import { getRepository } from 'typeorm';
 
-import Students from '../models/Student';
 import Template from '../models/Template';
 import Test from '../models/Test';
 
 
 class  ProofController {
-  public async show(): Promise<Students> {
-    const testsRepository = getRepository(Test);
+  public async show(): Promise <Test> {
+    const testRepository = getRepository(Test);
+    const templateRepository = getRepository(Template);
 
-    const respostaStudent = testsRepository.findOne({where: answer});
+    var resultSudent = testRepository.findOne({where: examresult});
+    const respostaStudent = testRepository.find({where: answer});
+    const respostaTemplete = templateRepository.find({where: answer});
 
-    var resp = map()
+    resultSudent = (await respostaStudent).some(exam)
+    function exam (value: Test, index: number, array: Test[]) {
+      if(value == respostaTemplete) {
+          return true
+      }
+    } 
 
-    if(respostaStudent){
+    await testRepository.save(resultSudent);
 
-    }
-
-    var Final = 
-
-    await studentsRepository.save(student);
-
-    return student;
+    return resultSudent;
   }
 }
 
