@@ -89,6 +89,21 @@ Estrutura da Aplicação
 =================
 - [x] Estrutura MVC
 
+####Observações:
+=================
+- A escolha sob o uso do typeORM se deve pelo seu nivel de abstração, enquanto a escolha do 
+postgre foi pelo fato de ele já está instalado na maquina e por isso seria mais facil utilização.
+A utilização do react em conjunto com o node.js, se deve pelo fato que venho tendo contato com a 
+linguegem faz alguns meses. E utilizar o typescript, é uma forma de trabalhar com a linguagem tipada
+que facilita muito na compreenção do codigo.
+
+- A escolha do modelo MVC se deve pelo fato que assim conseguiria me aproximar da estrutura utilizada
+pela orientação a objetos. 
+
+- Pelo estilo da linguagem teria que adaptar alguns pontos que seria principalmente a utilização do 
+FOREACH para pecorrer todo o array de dados fazendo uma comparação e depois que tivessemos esse arrey 
+verficariamos a quantidade e gerariamos os pontos, logo ativaria uma condição que avaliaria se o aluno
+foi aprovado ou não.
 
 ### Autor
 ---
