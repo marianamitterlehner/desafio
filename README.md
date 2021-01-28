@@ -97,7 +97,7 @@ Estrutura da Aplicação
  <br />
  <sub><b>Mariana Miguel</b></sub></a>
 Feito com ❤️ por Mariana Miguel 👋🏽 Entre em contato!
-[![Twitter Badge](https://img.shields.io/badge/-@maricookie26-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/maricookie26)](https://twitter.com/maricookie26) [![Linkedin Badge](https://img.shields.io/badge/-Mariana-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mariana-miguel-95268713b/)](https://www.linkedin.com/in/mariana-miguel-95268713b/) 
+[![Twitter Badge](https://img.shields.io/badge/-@maricookie26-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/maricookie26)](https://twitter.com/maricookie26) [![Linkedin Badge](https://img.shields.io/badge/-Mariana-blue?style=flatsquare&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mariana-miguel-95268713b/)](https://www.linkedin.com/in/mariana-miguel-95268713b/) 
 [![Gmail Badge](https://img.shields.io/badge/-mariana.m.miguel@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mariana.m.miguel@gmail.com)](mailto:mariana.m.miguel@gmail.com)
 
 
