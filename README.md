@@ -94,8 +94,7 @@ Estrutura da Aplicação
 ---
 
 <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQHbuaN3q9GEgg/profile-displayphoto-shrink_100_100/0/1591642102871?e=1617235200&v=beta&t=mOuU0vtLLa0wFRUNuamVDi4Kkxo516G6AKfuQ4QBk-w" width="100px;" alt=""/>
- <br />
 Feito com ❤️ por Mariana Miguel 👋🏽 Entre em contato!
-
+<br />
 [![Twitter Badge](https://img.shields.io/badge/-@maricookie26-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/maricookie26)](https://twitter.com/maricookie26) [![Linkedin Badge](https://img.shields.io/badge/-Mariana-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mariana-miguel-95268713b/)](https://www.linkedin.com/in/mariana-miguel-95268713b) 
 [![Gmail Badge](https://img.shields.io/badge/-mariana.m.miguel.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mariana.m.miguel@gmail.com)](mailto:mariana.m.miguel@gmail.com)
