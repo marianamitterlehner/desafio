@@ -3,13 +3,15 @@ import { getRepository } from 'typeorm';
 import Template from '../models/Template';
 import Test from '../models/Test';
 
+interface Request {
+  answer: any
+}
 
 class  ProofController {
-  public async show(): Promise <Test> {
+  public async show({answer}:Request): Promise <Test> {
     const testRepository = getRepository(Test);
     const templateRepository = getRepository(Template);
 
-    var resultSudent = testRepository.findOne({where: examresult});
     const respostaStudent = testRepository.find({where: answer});
     const respostaTemplete = templateRepository.find({where: answer});
 
